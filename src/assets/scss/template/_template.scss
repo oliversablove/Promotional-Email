@@ -38,12 +38,17 @@ html,
       .icons {
         width: 20px;
         margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
       }
+    }
+    th {
+      text-align: center;
     }
     .navbar-divider {
       display: block;
       height: 20px;
-      width: 1px;
+      width: 2px;
       background: #ff690f;
       background-color: #ff690f;
     }
