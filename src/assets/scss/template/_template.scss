@@ -14,7 +14,7 @@ html,
   background-color: #ff690f;
 
   .columns {
-    padding: 20px !important;
+    padding: 10px !important;
     .logo-white {
       width: 128px;
     }
@@ -24,7 +24,33 @@ html,
   }
 }
 
-.sub-header {
+
+.navbar {
   background: #d65600;
   background-color: #d65600;
+
+  .columns {
+    padding: 5px 10px !important;
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+      .icons {
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    th {
+      text-align: center;
+    }
+    .navbar-divider {
+      display: block;
+      height: 20px;
+      width: 2px;
+      background: #ff690f;
+      background-color: #ff690f;
+    }
+  }
 }
