@@ -10,8 +10,8 @@ html,
 }
 
 .header {
-  background: #ff690f;
-  background-color: #ff690f;
+  background: $primary-color;
+  background-color: $primary-color;
 
   .columns {
     padding: 10px !important;
@@ -51,6 +51,75 @@ html,
       width: 2px;
       background: #ff690f;
       background-color: #ff690f;
+    }
+  }
+}
+
+.deal {
+  background: #13191f;
+  background-color: #13191f;
+
+  .columns {
+    th {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  }
+
+  img {
+    padding-bottom: 20px;
+  }
+  h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  p {
+    color: white;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  span {
+    display: block;
+    color: white;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-align: center;
+    &.savings {
+      font-size: 14px !important;
+    }
+    &.travel-info {
+      font-size: 10px !important;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+    &.price {
+      font-size: 20px !important;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: ease-in-out .4s;
+    &:hover {
+      transition: ease-in-out .4s;
+      color: $primary-color;
+      border-color: $primary-color;
     }
   }
 }
