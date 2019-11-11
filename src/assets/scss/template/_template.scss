@@ -123,3 +123,81 @@ html,
     }
   }
 }
+
+.content-area {
+  background: #f1f4f7;
+  background-color: #f1f4f7;
+
+  & > tbody > tr > th {
+    padding-top: 16px;
+  }
+
+  .offer {
+    background: white;
+    background-color: white;
+    .columns {
+      th {
+        padding: 20px;
+      }
+      & > table {
+        max-width: 568px;
+        table-layout: fixed;
+      }
+    }
+
+    img {
+      padding-bottom: 20px;
+    }
+
+    p {
+      color: #334755;
+      font-weight: 600 !important;
+      font-size: 16px !important;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    span {
+      display: block;
+      color: white;
+      font-weight: 600 !important;
+      font-size: 16px !important;
+      text-align: center;
+      &.savings {
+        font-size: 14px !important;
+        color: #1a88f3;
+      }
+      &.small-text {
+        font-size: 10px !important;
+        font-weight: 500;
+        padding-bottom: 10px;
+        color: #334755;
+      }
+      &.price {
+        font-size: 20px !important;
+        font-weight: 600;
+        padding-bottom: 10px;
+        color: #334755;
+      }
+    }
+
+    .button {
+      background: #14181c;
+      background-color: #14181c;
+      display: inline-block;
+      width: 150px;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: 1px solid white;
+      border-radius: 3px;
+      color: white;
+      transition: ease-in-out .4s;
+      &:hover {
+        transition: ease-in-out .4s;
+        background: $primary-color;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
