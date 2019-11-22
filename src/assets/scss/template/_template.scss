@@ -107,7 +107,9 @@ html,
   }
 
   .button {
-    display: inline-block;
+    /* delete display block: margin 0 auto is centering button. Do in content area as well*/
+    display: block;
+    margin: 0 auto;
     width: 150px;
     text-align: center;
     padding-top: 10px;
@@ -129,7 +131,11 @@ html,
   background-color: #f1f4f7;
 
   & > tbody > tr > th {
-    padding-top: 16px;
+    padding-top: 0px;
+  }
+
+  .first-offer-background {
+    padding-top: 16px !important;
   }
 
   .offer {
@@ -184,7 +190,8 @@ html,
     .button {
       background: #14181c;
       background-color: #14181c;
-      display: inline-block;
+      margin: 0 auto;
+      display: block;
       width: 150px;
       text-align: center;
       padding-top: 7px;
@@ -193,10 +200,35 @@ html,
       border-radius: 3px;
       color: white;
       transition: ease-in-out .4s;
+
       &:hover {
         transition: ease-in-out .4s;
         background: $primary-color;
         background-color: $primary-color;
+      }
+    }
+
+    &.all-offers {
+      .group-icons {
+        width: 190px;
+        margin: 0 auto;
+        padding-bottom: 0;
+      }
+
+      h4 {
+        color: #334755;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+      p {
+        color: #334755;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        text-align: center;
+        padding-bottom: 20px;
       }
     }
   }
