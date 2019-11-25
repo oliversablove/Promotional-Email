@@ -241,11 +241,17 @@ html,
   color: white;
 
   & > tbody > tr> th {
-    padding: 30px;
+    padding: 30px 30px 25px 30px;
   }
 
   th {
-    padding-bottom: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
   }
 
   .download-info {
@@ -260,6 +266,7 @@ html,
     .info {
       display: block;
       font-size: 12px;
+      hyphens: none;
     }
   }
 
@@ -268,6 +275,9 @@ html,
       height: 40px;
       display: block;
       margin: 0 auto;
+    }
+    & > table > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 5px;
     }
   }
 }
