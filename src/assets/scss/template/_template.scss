@@ -234,3 +234,40 @@ html,
     }
   }
 }
+
+.footer-top {
+  background: #222d37;
+  background-color: #222d37;
+  color: white;
+
+  & > tbody > tr> th {
+    padding: 30px;
+  }
+
+  th {
+    padding-bottom: 0;
+  }
+
+  .download-info {
+    table > tbody > tr > th {
+      padding-left: 10px;
+      color: white;
+    }
+    .download {
+      display: block;
+      font-size: 14px;
+    }
+    .info {
+      display: block;
+      font-size: 12px;
+    }
+  }
+
+  .store-logos {
+    img {
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
