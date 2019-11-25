@@ -239,9 +239,11 @@ html,
   background: #222d37;
   background-color: #222d37;
   color: white;
-
+  & > tbody > tr {
+    vertical-align: middle;
+  }
   & > tbody > tr> th {
-    padding: 30px 30px 25px 30px;
+    padding: 30px 30px 25px 30px !important;
   }
 
   th {
@@ -255,18 +257,22 @@ html,
   }
 
   .download-info {
-    table > tbody > tr > th {
-      padding-left: 10px;
-      color: white;
-    }
+    // table > tbody > tr > th {
+    //   padding-left: 10px;
+    //   color: white;
+    // }
     .download {
       display: block;
       font-size: 14px;
+      color: white;
+      padding-left: 10px;
     }
     .info {
       display: block;
       font-size: 12px;
       hyphens: none;
+      color: white;
+      padding-left: 10px;
     }
   }
 
@@ -276,6 +282,8 @@ html,
       width: 120px;
       display: block;
       margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
     & > table > tbody > tr > th > table > tbody > tr > th {
       padding-bottom: 5px;
@@ -289,11 +297,15 @@ html,
   & > tbody > tr > th {
     padding-top: 20px;
     padding-bottom: 20px;
+    vertical-align: middle !important;
+  }
+  & > tbody > tr > th.small-6.large-3.columns.last {
+    padding-top: 35px;
   }
 
-  th {
-    padding: 0;
-  }
+  // th {
+  //   padding: 0;
+  // }
 
   .logo-section {
     img {
