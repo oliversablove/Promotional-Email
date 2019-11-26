@@ -1,0 +1,45 @@
+{
+  "title": "Fly to Ireland for less than $700 round trip plus more!",
+  "dealOfTheDay": {
+    "location": "Ireland",
+    "description": "8 days with air, hotel and car rental. Use promo code
+    CFDL110 to save. Price reflects NYC departure, other cities available.",
+    "savings": "Save $110 with code",
+    "extraInfo": "Gate 1 Travel",
+    "price": "649",
+    "link": "#",
+    "image": "/assets/img/kayak_files/ireland.png"
+  },
+  "offers": [
+    {
+    "location": "Cancun",
+    "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure,
+    other cities available.",
+    "savings": "Save up to 65%",
+    "extraInfo": "CheapCaribbean.com",
+    "price": "689",
+    "link": "#",
+    "image": "/assets/img/kayak_files/cancun.png"
+  },
+  {
+    "location": "China",
+    "description": "2 weeks with air and hotel. Price reflects BOS departure,
+    other cities available.",
+    "savings": "Save up to 70%",
+    "extraInfo": "Gate 12 Travel,
+    "price": "1249",
+    "link": "#",
+    "image": "/assets/img/kayak_files/china.png"
+  },
+  {
+    "location": "London",
+    "description": "9 days with air, hotel and car rental. Price reflects NYC departure,
+    other cities available.",
+    "savings": "Save up to 55%",
+    "extraInfo": "VisitLondon.com",
+    "price": "963",
+    "link": "#",
+    "image": "/assets/img/kayak_files/london.png"
+  }
+]
+}
