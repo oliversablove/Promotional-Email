@@ -8,7 +8,7 @@
     "extraInfo": "Gate 1 Travel",
     "price": "649",
     "link": "#",
-    "image": "/assets/img/kayak_files/ireland.png"
+    "image": "https://i.imgur.com/f5kuAgK.png"
   },
   "offers": [
     {
@@ -19,7 +19,7 @@
     "extraInfo": "CheapCaribbean.com",
     "price": "689",
     "link": "#",
-    "image": "/assets/img/kayak_files/cancun.png"
+    "image": "https://i.imgur.com/lPtSXpB.png"
     },
     {
       "location": "China",
@@ -29,7 +29,7 @@
       "extraInfo": "Gate 12 Travel",
       "price": "1249",
       "link": "#",
-      "image": "/assets/img/kayak_files/china.png"
+      "image": "https://i.imgur.com/z6h0LIV.jpg"
     },
     {
       "location": "London",
@@ -39,7 +39,7 @@
       "extraInfo": "VisitLondon.com",
       "price": "963",
       "link": "#",
-      "image": "/assets/img/kayak_files/london.png"
+      "image": "https://i.imgur.com/l6cHEnf.png"
     }
   ]
 }
